@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f0f0f0;
+}
+
+.container {
+  max-width: 500px;
+  margin: 80px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 16px;
+  background: #2196f3;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #1b7bc2;
+}
+
+#output {
+  margin-top: 20px;
+  font-size: 18px;
+  word-wrap: break-word;
+}
